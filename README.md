@@ -1,19 +1,60 @@
 # [TMM'25] Diffusion_Image_Enhancement
 Official Pytorch implementation of ****.
 
+[Xiangrui Zeng](),
 [Lingyu Zhu](https://scholar.google.com/citations?user=IhyTEDkAAAAJ&hl=zh-CN),
-[Wenhan Yang](https://scholar.google.com/citations?user=S8nAnakAAAAJ&hl=zh-CN),
-[Baoliang Chen](https://scholar.google.com/citations?user=w_WL27oAAAAJ&hl=zh-CN),
-[Hanwei Zhu](https://scholar.google.com/citations?user=-52izjkAAAAJ&hl=zh-CN),
 [Shiqi Wang](https://scholar.google.com/citations?user=Pr7s2VUAAAAJ&hl=zh-CN)
 
 
-[[`Arxiv`](http://arxiv.org/abs/)] [[`Video`](https://www.youtube.com/watch?v=gn_IB1-FEY8&t=2s)] 
+[[`Arxiv`](http://arxiv.org/abs/)] [[`Video`]()] 
 
 ## Overview
-<p align="left">
-<img src="src/figures/framework.png" width=80% height=80% 
-class="center">
-</p>
 
 
+
+## TODO List
+This repository is still under active construction:
+- [ ] Release training and testing codes
+- [ ] Release pretrained models
+- [ ] Clean the code
+
+## Public Dataset
+
+
+## Installation
+
+## Contact
+
+- Xiangrui Zeng: xiazeng9-c@my.cityu.edu.hk
+- Lingyu Zhu: lingyzhu-c@my.cityu.edu.hk
+
+## Citation
+
+If you find our work helpful, please consider citing:
+
+
+
+## Additional Link
+
+We also recommend our Temporally Consistent Enhancer Network [TCE-Net](https://github.com/lingyzhu0101/low-light-video-enhancement.git). If you find our work helpful, please consider citing:
+
+```bibtex
+@article{zhu2024temporally,
+  title={Temporally Consistent Enhancement of Low-Light Videos via Spatial-Temporal Compatible Learning},
+  author={Zhu, Lingyu and Yang, Wenhan and Chen, Baoliang and Zhu, Hanwei and Meng, Xiandong and Wang, Shiqi},
+  journal={International Journal of Computer Vision},
+  pages={1--21},
+  year={2024},
+  publisher={Springer}
+}
+```
+
+```bibtex
+@inproceedings{zhu2024unrolled,
+  title={Unrolled Decomposed Unpaired Learning for Controllable Low-Light Video Enhancement},
+  author={Lingyu Zhu, Wenhan Yang, Baoliang Chen, Hanwei Zhu, Zhangkai Ni, Qi Mao, and Shiqi Wang},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2024}
+}
+
+```
