@@ -10,7 +10,7 @@ Official Pytorch implementation of **Bootstrap Low-light Image Enhancement Diffu
 [Shiqi Wang](https://scholar.google.com.tw/citations?user=Pr7s2VUAAAAJ&hl=en)
 [Sam Kwong](https://scholar.google.com.tw/citations?user=_PVI6EAAAAAJ&hl=en)
 
-[[`Arxiv`](http://arxiv.org/abs/)] [[`Video`]()] 
+[[`Arxiv`](http://arxiv.org/abs/)] [[`Supplementary Material`]()]  [[`Video`]()] 
 
 ## Overview
 
