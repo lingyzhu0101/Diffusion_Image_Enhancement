@@ -1,5 +1,5 @@
 # [TMM'25] Diffusion_Image_Enhancement
-Official Pytorch implementation of **Bootstrap Low-light Image Enhancement Diffusion Model Through Context-centric Prior**. Xiangrui Zeng and Lingyu Zhu contribute equally.
+Official Pytorch implementation of **Bootstrap Low-light Image Enhancement Diffusion Model Through Context-centric Prior**. [Xiangrui Zeng]() and [Lingyu Zhu](https://scholar.google.com/citations?user=IhyTEDkAAAAJ&hl=zh-CN) contribute equally.
 
 [Xiangrui Zeng](),
 [Lingyu Zhu](https://scholar.google.com/citations?user=IhyTEDkAAAAJ&hl=zh-CN),
