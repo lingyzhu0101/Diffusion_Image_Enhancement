@@ -1,9 +1,15 @@
 # [TMM'25] Diffusion_Image_Enhancement
-Official Pytorch implementation of ****.
+Official Pytorch implementation of **Bootstrap Low-light Image Enhancement Diffusion Model Through Context-centric Prior**.
 
 [Xiangrui Zeng](),
 [Lingyu Zhu](https://scholar.google.com/citations?user=IhyTEDkAAAAJ&hl=zh-CN),
-[Shiqi Wang](https://scholar.google.com/citations?user=Pr7s2VUAAAAJ&hl=zh-CN)
+[Wenhan Yang](https://scholar.google.com/citations?user=S8nAnakAAAAJ&hl=zh-CN),
+[Peilin Chen](https://scholar.google.com.tw/citations?user=b9k152sAAAAJ&hl=en),
+[Baoliang Chen](https://scholar.google.com.tw/citations?user=w_WL27oAAAAJ&hl=en),
+[Hanwei Zhu](https://scholar.google.com.tw/citations?user=-52izjkAAAAJ&hl=en),
+[Shiqi Wang](https://scholar.google.com.tw/citations?user=Pr7s2VUAAAAJ&hl=en)
+[Sam Kwong](https://scholar.google.com.tw/citations?user=_PVI6EAAAAAJ&hl=en)
+
 
 
 [[`Arxiv`](http://arxiv.org/abs/)] [[`Video`]()] 
