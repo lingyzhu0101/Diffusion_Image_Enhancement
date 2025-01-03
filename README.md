@@ -13,7 +13,7 @@ Official Pytorch implementation of **Bootstrap Low-light Image Enhancement Diffu
 [[`Arxiv`](http://arxiv.org/abs/)] [[`Supplementary Material`]()]  [[`Video`]()] 
 
 ## Overview
-
+With the emergence of diffusion models, there have been few efforts to utilize the context-centric prior knowledge embedded in the Segment Anything Model (SAM) to enhance the low-light images. However, a major challenge remains in bridging the gap between context-centric prior knowledge and the generative model for low-light image enhancement. To address this challenge, we propose a novel SAM Prior-Guided Diffusion model (SPGD) for low-light image enhancement. This paradigm utilizes diffusion techniques to model normal image distributions while under the regularizing of the context-centric priors that encompass high-level semantic and low-level structural information from the SAM. Specifically, we design a SAM Prior Encoder (SPE) module that incorporates the context-centric prior, which integrates high-level and low-level details using an attention mechanism. This integration serves the diffusion model in generating normal-light images with richer and more semantically consistent details. Furthermore, the semantic context regularization loss integrates SAM semantic maps into the optimization process, ensuring that the recovered context better aligns with normal-light semantics. Comprehensive experiments across multiple datasets demonstrate that the proposed method achieves state-of-the-art (SOTA) performance.  Additionally, more evaluations on several no-reference datasets highlight the strong generalization capability of the proposed method.
 
 ## TODO List
 This repository is still under active construction:
