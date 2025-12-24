@@ -1,0 +1,14 @@
+
+dataset: Unpaired
+
+#### datasets
+datasets:
+  val:
+    dist: False
+    root: dataset/
+    n_workers: 1
+    batch_size: 1
+    sub_data: mydark
+
+
+

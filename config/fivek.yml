@@ -1,0 +1,22 @@
+
+dataset: FivekEdgeSemantic
+
+#### datasets
+datasets:
+  train:
+    dist: False
+    root: /root/autodl-tmp/data/FiveK/
+    use_shuffle: true
+    n_workers: 1  
+    batch_size: 8
+    use_flip: true
+    use_crop: true
+    patch_size: 96
+    sub_data: set3
+
+  val:
+    dist: False
+    root: /root/autodl-tmp/data/FiveK/
+    n_workers: 1
+    batch_size: 1
+    sub_data: set3

@@ -1,0 +1,75 @@
+{
+    "name": "unpaired-test",
+    "phase": "test",
+    "ddimtrain": true,
+    "gpu_ids": [
+        0
+    ],
+    "seed": 2029,
+    "path": {
+        "log": "logs",
+        "tb_logger": "tb_logger",
+        "results": "results",
+        "checkpoint": "checkpoint",
+        "resume_state": "checkpoints/lolv2syn/best_psnr_gen.pth"
+    },
+    "model": {
+        "which_model_G": "ddpm",
+        "finetune_norm": false,
+        "ca": true,
+        "unet": {
+            "in_channel": 6,
+            "out_channel": 3,
+            "inner_channel": 64,
+            "channel_multiplier": [
+                1,
+                1,
+                2,
+                2,
+                4
+            ],
+            "attn_res": [
+                32
+            ],
+            "res_blocks": 2,
+            "dropout": 0
+        },
+        "beta_schedule": {
+            "train": {
+                "schedule": "linear",
+                "n_timestep": 10,
+                "linear_start": 0.002,
+                "linear_end": 0.84
+            },
+            "val": {
+                "schedule": "linear",
+                "n_timestep": 10,
+                "linear_start": 0.002,
+                "linear_end": 0.84
+            }
+        },
+        "diffusion": {
+            "image_size": 128,
+            "channels": 6,
+            "conditional": true
+        }
+    },
+    "train": {
+        "n_iter": 1000000,
+        "val_freq": 10000.0,
+        "save_checkpoint_freq": 50000.0,
+        "print_freq": 200,
+        "optimizer": {
+            "type": "adam",
+            "lr": 0.0001
+        },
+        "ema_scheduler": {
+            "step_start_ema": 5000,
+            "update_ema_every": 1,
+            "ema_decay": 0.9999
+        }
+    },
+    "wandb": {
+        "project": "llie_ddpm"
+    }
+}
